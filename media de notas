@@ -1,0 +1,25 @@
+      float n1, n2, n3 ,n4, media;
+			
+			Console.Write("n1: ");
+			n1 = int.Parse(Console.ReadLine());
+			Console.WriteLine(n1);
+			
+			Console.Write("n2: ");
+			n2 = int.Parse(Console.ReadLine());
+			Console.WriteLine(n2);
+			
+			Console.Write("n3: ");
+			n3 = int.Parse(Console.ReadLine());
+			Console.WriteLine(n3);
+			
+			Console.Write("n4: ");
+			n4 = int.Parse(Console.ReadLine());
+			Console.WriteLine(n4);
+			
+			media = (n1 + n2 + n3 + n4) / 4;
+						
+			if(media >= 6){
+			    Console.WriteLine("\nAprovado!!! \nmedia: {0}", media);
+			}else{
+			Console.WriteLine("\nReprovado!!! \nmedia: {0}", media);
+			}
