@@ -1,4 +1,4 @@
-      float n1, n2, n3 ,n4, media;
+                        float n1, n2, n3 ,n4, media;
 			
 			Console.Write("n1: ");
 			n1 = int.Parse(Console.ReadLine());
